@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "slotmine",
+  "version": "${version}",
+  "name": "SlotMine",
+  "description": "Contador tragaperras + idle 100% client-side para minar. Sin red, sin automatización.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.slotmine.SlotMineClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
