@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "neonviewmodel",
+  "version": "${version}",
+  "name": "Neon Viewmodel",
+  "description": "Efectos visuales client-side: brillo neón y estelas en primera persona para armas y herramientas. No requiere mod en el servidor.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.neonviewmodel.NeonViewmodelClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
